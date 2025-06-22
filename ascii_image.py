@@ -1,8 +1,6 @@
 import streamlit as st
 import numpy as np
 from PIL import Image
-#from st_pages import Page, show_pages
-#from streamlit.runtime.pages_manager import _on_pages_changed, get_pages
 
 def convert_to_ascii(img_path, density_val):
     im = Image.open(img_path).convert('L')
