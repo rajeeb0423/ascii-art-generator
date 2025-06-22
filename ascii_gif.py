@@ -72,7 +72,7 @@ def main():
             st.image(im)
         blocks = '█▓▒░'
         standard = "@%#*+=-:."
-        long = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`\'.'
+        long = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1}{[]?-_+~<>i!lI;:",^\'.'
         ascii_type = {'standard': standard, 'blocks': blocks, 'long': long}
         ascii_selection=st.selectbox('**Select the character set:**',ascii_type.keys())
         density = ascii_type[ascii_selection]
