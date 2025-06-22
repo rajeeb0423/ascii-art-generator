@@ -68,6 +68,8 @@ def main():
     with col1:
         st.markdown('## Choose a gif:')
         im = st.file_uploader('img', type = ['gif'],label_visibility = 'collapsed')
+        if im != None:
+            st.image(im)
         blocks = '█▓▒░'
         standard = "@%#*+=-:."
         long = '$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\|()1{}[]?-_+~<>i!lI;:,"^`\'.'
