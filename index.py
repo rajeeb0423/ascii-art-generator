@@ -7,7 +7,7 @@ def main():
 
     pg = st.navigation([ascii_image, ascii_gif], expanded=True)#, position='hidden')
 
-    st.set_page_config(page_title= 'Image to ASCII geneartor', layout='wide')
+    st.set_page_config(page_title= 'Image to ASCII geneartor', layout='wide', initial_sidebar_state='expanded')
     pg.run()
 
 if __name__ == '__main__':
