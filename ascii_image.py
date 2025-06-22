@@ -56,10 +56,6 @@ def main():
         contrast=st.slider('Increase contrast level:', 0, 10, 0, 1)
         on = st.toggle("Inverse")
         st.markdown("<p style='text-align: left; font-family:Monaco'>Want to convert gifs to ASCII animation instead? Try our GIF to ASCII tool in the navigation bar and creating ASCII magic of your favorite GIFs!</p>", unsafe_allow_html=True)
-        
-        if st.button('GIF to ASCII', type='primary'):
-            st.switch_page('ascii_gif.py')
-
 
     with col2:
         if img != None:
