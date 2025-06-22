@@ -84,7 +84,7 @@ def main():
         if on:
             density = density[::-1]
 
-        duration = st.slider('**Choose time delay between each frame in milliseconds:**', 10, 200, 50, 10)
+        duration = st.slider('**Choose time delay between each frame in milliseconds:**', 10, 200, 50,5)
 
     if im != None:
         gif_img = Image.open(im)
